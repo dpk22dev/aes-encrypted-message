@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >    
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: " />
+
+    <EditText
+        android:id="@+id/Phone_No"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Message: " />
+
+    <EditText
+        android:id="@+id/SMS_Message"
+        android:layout_width="fill_parent"
+        android:layout_height="125px"
+        android:gravity="top"
+        android:text="" >
+    </EditText>
+
+    <Button
+        android:id="@+id/Send_SMS"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:text="Send SMS" >
+    </Button>
+
+    <Button
+        android:id="@+id/Key_Exchange"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Key Exchange" >
+    </Button>
+    
+</LinearLayout>
+</ScrollView>

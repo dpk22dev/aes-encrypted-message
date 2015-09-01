@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TrysecuresmsActivity!</string>
+    <string name="app_name">Secure SMS</string>
+	<string name="welcome">Welcome</string>
+	<string name="compose">compose</string>
+	<string name="view_messages">view messages</string>
+	<string name="master_password">Master Password</string>
+	<string name="memory">Memory</string>
+	<string name="demand_old">Enter Old Password</string>
+	<string name="demand_new">Enter New Password</string>
+	<string name="demand_retype">Retype New Password</string>
+	<string name="ok">Ok</string>
+	<string name="cancel">Cancel</string>
+	<string name="ask_master_pass">Enter Master Password</string>
+</resources>

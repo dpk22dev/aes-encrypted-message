@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/text_old_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/demand_old" />
+
+    <EditText
+        android:id="@+id/old_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/text_new_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/demand_new" />
+
+    <EditText
+        android:id="@+id/new_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+
+    <TextView
+        android:id="@+id/text_retype_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/demand_retype" />
+
+    <EditText
+        android:id="@+id/retype_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/ok_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok" />
+
+        <Button
+            android:id="@+id/cancel_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

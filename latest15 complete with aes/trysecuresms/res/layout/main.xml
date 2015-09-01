@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/welcome"
+    />
+    
+<Button android:id="@+id/compose" 
+	  android:text="@string/compose"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+		
+<Button android:id="@+id/view_messages" 
+	  android:text="@string/view_messages"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+		
+<Button android:id="@+id/master_password" 
+	  android:text="@string/master_password"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+		
+<Button android:id="@+id/memory" 
+	  android:text="@string/memory"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+
+    
+</LinearLayout>
